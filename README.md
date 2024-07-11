@@ -15,7 +15,7 @@ CS2帧数测试方案
 
 ### 放置 CFG 文件
 
-`.cfg` 文件放置于 steamapps\common\Counter-Strike Global Offensive\game\cfg`
+`.cfg` 文件放置于 `steamapps\common\Counter-Strike Global Offensive\game\cfg`
 
 ### 放置 Demo 文件
 

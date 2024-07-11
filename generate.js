@@ -82,7 +82,7 @@ if (!demoPath || !fs.existsSync(demoPath)) {
     ", demo will not be included in the zip file"
   );
 } else {
-  archive.file(`${demoPath}.dem`, { name: `${context.demoname}.dem` });
+  archive.file(demoPath, { name: `${context.demoname}.dem` });
 }
 
 // Finalize the archive (ie we are done appending files but streams have to finish yet)
