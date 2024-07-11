@@ -7,3 +7,5 @@ node_modules
 out/*.zip
 out/*.7z
 out/*.rar
+
+demo/*.dem
