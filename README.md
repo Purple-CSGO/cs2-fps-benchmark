@@ -71,9 +71,10 @@ CS2帧数测试方案
 
 ## 自打包
 
-1. 安装 Node.js 环境
-2. 安装依赖：`npm install`
-3. 修改 `config` 目录中的配置文件，也可以新增 `地图-版本号.json`
-4. 生成对应文件并打包：`node ./generate.js 设置文件路径 demo文件路径`，如：
+1. 安装 **Node.js** 环境
+2. 切换到 `src-benchmark` 目录：`cd src-benchmark`
+3. 安装依赖：`npm install`
+4. 修改 `config` 目录中的配置文件，也可以新增 `地图-版本号.json`
+5. 生成对应文件并打包：`node ./generate.js 设置文件路径 demo文件路径`，如：
    `node ./generate.js config/inf-v1.json demo/inf-v1.dem`
-5. 修改 `README.md` 的 Demo 信息表格，准备好打包的zip文件，并提交PR
+6. 修改 `README.md` 的 Demo 信息表格，准备好打包的zip文件，并提交PR
