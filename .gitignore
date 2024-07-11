@@ -1,0 +1,9 @@
+node_modules
+.vscode
+.idea
+.fleet
+.DS_Store
+
+out/*.zip
+out/*.7z
+out/*.rar
