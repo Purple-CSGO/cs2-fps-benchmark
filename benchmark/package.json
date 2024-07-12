@@ -1,5 +1,12 @@
 {
+  "type": "module",
+  "scripts": {
+    "gen": "node src/main.js"
+  },
   "dependencies": {
-    "archiver": "^7.0.1"
+    "archiver": "^7.0.1",
+    "yaml": "^2.4.5"
+  },
+  "devDependencies": {
   }
 }
