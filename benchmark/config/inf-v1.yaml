@@ -1,0 +1,20 @@
+# 地图
+map: inferno
+# 版本
+version: v1
+# 重发版本
+rev: 1
+# demo比赛日期
+demotime: "2024.6.23"
+# 开始tick
+demotick: 64500
+# 延迟记录的时间（秒）
+delaytime: 2
+# 测试记录的时间（秒）
+recordtime: 40
+# 要观察玩家的名称
+playername: "『 5号 』"
+# 要观察玩家的id P.S. 暂不可用 留空
+playerid: ""
+# 切换到观察玩家的数字Slot
+playerslot: 8
