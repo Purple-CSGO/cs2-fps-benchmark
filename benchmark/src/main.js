@@ -31,7 +31,7 @@ let result = data;
 Object.keys(context).forEach((key) => {
   const placeholder = `[[${key}]]`;
   const value = context[key];
-  result = result.replace(placeholder, value);
+  result = result.replaceAll(placeholder, value);
 });
 
 if (!fs.existsSync("out")) fs.mkdirSync("out");
