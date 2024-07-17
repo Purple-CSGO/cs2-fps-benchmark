@@ -2,6 +2,8 @@
 
 CS2帧数测试方案
 
+扣扣群：687767969
+
 ## 路线 Roadmap
 
 - [X] 主要源
@@ -16,28 +18,34 @@ CS2帧数测试方案
 
 ## 测试信息
 
+**优先测试 Inferno**，有必要时考虑其他地图
+
 | 地图    | CFG | 版本 | Demo日期  | 开始Tick | 测试时长 | 延迟记录 | 玩家编号 | 玩家名称  |
 | ------- | ------- | ---- | --------- | -------- | -------- | ------------ | ------------ | --------- |
 | **Inferno** | inf.cfg | v1   | 2024.6.23 | 64500    | 40s      | 2s           | 8            | 『 5号 』 |
 | Ancient | anc.cfg | v1   | 2024.7.5  | 19920    | 40s      | 2s           | 3            | Rop紫     |
 
-> 优先测试 Inferno，有必要时考虑其他地图
-
 ## 测试准备
 
 下载对应打包好的压缩文件：[主要源](https://share.hlae.site/%E4%B8%BB%E8%A6%81%E6%BA%90/CS2%E5%B8%A7%E6%95%B0%E6%B5%8B%E8%AF%95) | [备用源](https://share.hlae.site/%E5%A4%87%E7%94%A8%E6%BA%90/CS2%E5%B8%A7%E6%95%B0%E6%B5%8B%E8%AF%95)
 
-### 放置 CFG 文件
+找到游戏目录：Steam库中 → 右键CS2 → 管理 → 浏览本地文件
 
-`.cfg` 文件放置于 `steamapps\common\Counter-Strike Global Offensive\game\cfg`
+> 游戏目录：...steamapps\common\Counter-Strike Global Offensive
 
 ### 放置 Demo 文件
 
-`.dem` 文件放置于 `steamapps\common\Counter-Strike Global Offensive\game\csgo`
+`.dem` 文件放置于 `游戏目录\game\csgo`
+
+### 放置 CFG 文件
+
+`.cfg` 文件放置于 `游戏目录\game\csgo\cfg`
 
 ### 设置启动项
 
-启动项务必添加 `-insecure` 或 `-allow_third_party_software`
+启动项务必添加`-allow_third_party_software` 或 `-insecure`
+
+> insecure只能本地游戏或回放录像
 
 ### 设置帧数记录工具
 
