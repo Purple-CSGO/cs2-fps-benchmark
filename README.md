@@ -9,8 +9,8 @@ CS2帧数测试方案
 - [X] 主要源
 - [ ] 备用源
 - [x] 画面设置
-- [x] 提交结果的收集表链接
-- [ ] 汇总表格链接
+- [x] 提交数据的收集表链接
+- [x] 汇总表格链接
 - [ ] 说明网页搭建和部署
 - [ ] 说明网页：收集结果可视化
 - [ ] 自动放置文件的工具
@@ -93,6 +93,9 @@ CS2帧数测试方案
 【腾讯文档】CS2帧数测试收集：https://docs.qq.com/form/page/DZVVpUWdMUlZqVmFE
 
 ### 汇总表格
+
+【腾讯文档】CS2帧数测试收集结果（不定期更新）
+https://docs.qq.com/sheet/DZWphZE16ZWFvYkdH?tab=BB08J2
 
 > TODO 制作好之后在：https://cs2.upup.cool
 
